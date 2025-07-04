@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  🧩 1. Tiêu đề & mô tả:
+html
+Sao chép
+Chỉnh sửa
+<h1>Đăng ký khóa học Online</h1>
+<p>Học lập trình web từ cơ bản đến nâng cao. Vui lòng điền thông tin bên dưới để đăng ký.</p>
+🧩 2. Biểu mẫu đăng ký (form):
+Sử dụng các thẻ:
+
+label, input (text, email, date)
+
+radio, checkbox
+
+select, textarea
+
+button
+
+html
+Sao chép
+Chỉnh sửa
+<form>
+  <label for="fullname">Họ và tên:</label>
+  <input type="text" id="fullname" name="fullname" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="birthday">Ngày sinh:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+
+  <label>Giới tính:</label>
+  <input type="radio" id="male" name="gender" value="Nam">
+  <label for="male">Nam</label>
+  <input type="radio" id="female" name="gender" value="Nữ">
+  <label for="female">Nữ</label><br><br>
+
+  <label>Chọn khóa học:</label><br>
+  <input type="checkbox" id="html" name="course" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="checkbox" id="css" name="course" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="checkbox" id="js" name="course" value="JavaScript">
+  <label for="js">JavaScript</label><br><br>
+
+  <label for="plan">Chọn gói học:</label>
+  <select id="plan" name="plan">
+    <option value="basic">Cơ bản</option>
+    <option value="pro">Nâng cao</option>
+    <option value="vip">VIP 1 kèm 1</option>
+  </select><br><br>
+
+  <label for="note">Ghi chú thêm:</label><br>
+  <textarea id="note" name="note" rows="4" cols="40"></textarea><br><br>
+
+  <button type="submit">Đăng ký</button>
+  <button type="reset">Xóa thông tin</button>
+</form>
+🧩 3. Thông tin khóa học (dùng bảng table):
+html
+Sao chép
+Chỉnh sửa
+<h2>Thông tin các khóa học</h2>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Tên khóa học</th>
+      <th>Thời gian</th>
+      <th>Học phí</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML cơ bản</td>
+      <td>2 tuần</td>
+      <td>500.000đ</td>
+    </tr>
+    <tr>
+      <td>CSS nâng cao</td>
+      <td>3 tuần</td>
+      <td>700.000đ</td>
+    </tr>
+    <tr>
+      <td>JavaScript từ A-Z</td>
+      <td>4 tuần</td>
+      <td>1.000.000đ</td>
+    </tr>
+  </tbody>
+</table>
+🧩 4. Footer:
+html
+Sao chép
+Chỉnh sửa
+<footer>
+  <p>© 2025 Trung tâm đào tạo lập trình | Liên hệ: 0123-456-789</p>
+</footer>
+</body>
+</html>
